@@ -1,7 +1,7 @@
 with base_demographics as (
 
     select 
-        _airbyte_demographics_hashid,
+        _airbyte_raw_id,
         location_key,
         population,
         population_male,
